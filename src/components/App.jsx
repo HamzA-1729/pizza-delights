@@ -1,15 +1,14 @@
 import Header from "./header";
 import Footer from "./footer";
-import Pizza from "./pizza";
 import Menu from "./menu";
+import "./index.css";
 function App() {
   return (
-    <>
+    <div className="container">
       <Header />
       <Menu />
-      <Pizza />
       <Footer />
-    </>
+    </div>
   );
 }
 export default App;
